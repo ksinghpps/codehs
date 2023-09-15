@@ -1,0 +1,43 @@
+"""
+1. My biggest struggle was making sure the story made somewhat sense. I put "filler" words in place of the varribles and wrote a paragraph. Then finally, I replaced the filler words with the varibles.
+2. I satisfied all requiremts. I had 2 pargraphs and 2 stories and I had 7+ varibles in both paragraphs.
+3. I could have specified the word needed to make the story be logically correct.
+
+"""
+print("Story 1")
+print(" ")
+word1=(input("Enter an adjective: "))
+word2=(input("Enter a noun: "))
+word3=(input("Enter a verb in the past tense: "))
+word4=(input("Enter an adverb: "))
+word5=(input("Enter an adjective: "))
+word6=(input("Enter a noun: "))
+word7=(input("Enter a noun: "))
+word8=(input("Enter an adjective: "))
+word9=(input("Enter a verb in the past tense: "))
+word10=(input("Enter an adverb: "))
+word11=(input("Enter a verb in the past tense: "))
+word12=(input("Enter an adjective: "))
+
+print(" ")
+print("Today I went to the zoo. I saw a(n) " + word1 + " " + word2 + " jumping up and down in its tree. He " + word3 + " " + word4 + " through the large tunnel that led to its " + word5 + " " + word6 + ". I got some peanuts and passed them through the cage to a gigantic gray " + word7 + " towering above my head. Feeding that animal made me hungry. I went to get a " + word8 + " scoop of ice cream. It filled my stomach. Afterwards I had to " + word9 + " " + word10 + " to catch our bus. When I got home I " + word11 + " my mom for a " + word12 + " day at the zoo.")
+
+""" 
+Start of story 2
+"""
+print(" ")
+print("Story 2")
+print(" ")
+
+food = input("Enter a noun (type of food): ")
+noun1 = input("Enter a noun: ")
+adj1 = input("Enter an adjective: ")
+bird = input("Enter a noun: ")
+verb1 = input("Enter a verb in the past tense: ")
+verb2 = input("Enter a verb in the past tense: ")
+verb3 = input("Enter a verb in the past tense: ")
+noun2 = input("Enter a noun: ")
+
+print(" ")
+story = "It was " + food + " day at school, and " + noun1 + " was super " + adj1 + " for lunch. But when she went outside to eat, a " + bird + " stole her " + food + "! " + noun1 + " chased the " + bird + " all over school. She " + verb1 + ", " + verb2 + ", and " + verb3 + " through the playground. Then she tripped on her " + noun2 + " and the " + bird + " escaped! Luckily, " + noun1 + "'s friends were willing to share their " + food + " with her."
+print(story)
